@@ -1,0 +1,97 @@
+/* .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302f49;
+    padding: 1px 80px;
+  }
+  
+  .footer .copy {
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  .bottom-links {
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .bottom-links .links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 600px;
+    margin-left: -500px;
+  }
+  
+  .bottom-links .links span {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 0px 50px;
+    margin-left: 30px;
+  }
+  
+  .bottom-links .links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 30px;
+    font-size:19px;
+  } */
+
+
+  .Footer {
+    position: relative;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: #253661;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.FooterLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+}
+
+.FooterLogo a {
+    color: #fff; 
+    font-size: 34px; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.FooterLogo a:hover {
+    color: #04D9FF; 
+}
+.FooterContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footeritems
+{
+    letter-spacing: 2px;
+}
+.footeritems:hover
+{
+    color: rgb(30, 99, 158);
+    border-bottom:1px solid white;
+}
+.rights
+{
+    letter-spacing: 2px;
+    font-size: 17px;
+}
