@@ -1,0 +1,122 @@
+
+  
+  .ha {
+    backdrop-filter: blur(5px);
+    background-color: rgba(215, 215, 215, 0.295);
+    border-radius: 26px;
+    margin: 30px;
+    width: 700px;
+    height:580px;
+    padding:80px ;
+    text-align:center;
+    margin-left: 2%;
+    margin-top: 50px;
+    text-align: center;
+
+  }
+  
+  .centeredText {
+    /* display: inline-block; */
+    margin: 0 auto;
+    font-family: "Moirai One", system-ui;
+    font-weight:700;
+    font-style: normal;
+  font-size: 70px;
+  color:rgb(0, 0, 0);
+  }
+
+  .ba{
+    font-family: "Edu SA Beginner", cursive;
+    font-size: 30px;
+    color: black;
+  }
+  .userbut{
+    width: 110px;
+  /* align-items: center; */
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #323232 0, #000000 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  margin-right: 100px;
+  padding-right: 16px;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    margin-left: 20px;
+    font-size: 18px; 
+}
+
+.userbut:focus {
+  box-shadow: #000000 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.userbut:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #a1a1a1 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.userbut:active {
+  box-shadow: #000000 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.Adminbut{
+    width: 110px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #323232 0, #000000 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.Adminbut:focus {
+  box-shadow: #d7d7d7 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.Adminbut:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #777777 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.Adminbut:active {
+  box-shadow: #868686 0 3px 7px inset;
+  transform: translateY(2px);
+}
